@@ -39,4 +39,33 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+// import 'package:flutter/material.dart';
+// void main() {
+//   return runApp(
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       title: 'flutter demo app',
+//       home: Scaffold(
+//         backgroundColor: Colors.black,
+//         appBar: AppBar(
+//           centerTitle: true,
+//           backgroundColor: Colors.amber,
+//           leading:const Icon(Icons.menu),
+//           title:const Text('Flutter App',style: TextStyle(fontWeight: FontWeight.bold),),
+//         ),
+//         body:const Center(
+//           child: Text(
+//             'Red & White',
+//             style: TextStyle(
+//                 color: Colors.redAccent,
+//                 fontSize: 55,
+//                 fontWeight: FontWeight.w500,
+//                 decoration: TextDecoration.underline,
+//                 decorationColor: Colors.amber,
+//                 decorationStyle: TextDecorationStyle.double),
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
